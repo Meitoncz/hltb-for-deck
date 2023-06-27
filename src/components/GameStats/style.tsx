@@ -29,10 +29,11 @@ export default (
     position: absolute;
     border: none;
     padding-top: 0px;
-    padding-bottom: 10px;
-    top: -40px;
-    height: 40px;
+    top: -60px;
+    height: 60px;
     width: 100%;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
 }
 
 .hltb-info-absolute {
@@ -58,6 +59,13 @@ export default (
 .hltb-info ul {
     list-style: none;
     padding: 5px 35px;
+    margin: 0px;
+    display: flex;
+}
+
+.hltb-info-clean-blur ul {
+    list-style: none;
+    padding: 10px 35px;
     margin: 0px;
     display: flex;
 }
@@ -104,6 +112,11 @@ export default (
 }
 .hltb-details-btn-clean {
     margin: auto !important;
+}
+
+.hltb-details-btn-clean-blur {
+    margin: auto !important;
+    line-height: 18px !important;
 }
 
 .hltb-details-btn:focus {
