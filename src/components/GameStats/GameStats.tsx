@@ -31,11 +31,14 @@ export const GameStats = ({ serverApi, game, appId, id }: GameStatsProps) => {
         case 'clean-default':
             hltbInfoStyle = 'hltb-info-clean-default';
             break;
+        case 'clean-default-blur':
+            hltbInfoStyle = 'hltb-info-clean-default-blur';
+            break;
     }
     const hltbInfoPosition =
         hltbStyle === 'clean-left' ? 'hltb-info-clean-left' : '';
     const btnStyle =
-        hltbStyle === 'default' || hltbStyle === 'clean-default'
+        hltbStyle === 'default' || hltbStyle === 'clean-default' || hltbStyle === 'clean-default-blur'
             ? ''
             : 'hltb-details-btn-clean';
 

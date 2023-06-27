@@ -23,6 +23,18 @@ export default (
     width: 100%;
 }
 
+.hltb-info-clean-default-blur {
+    background: rgba(14, 20, 27, 0.5);
+    backdrop-filter: blur(8px);
+    position: absolute;
+    border: none;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    top: -40px;
+    height: 40px;
+    width: 100%;
+}
+
 .hltb-info-absolute {
     position: absolute;
     display: none;

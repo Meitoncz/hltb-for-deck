@@ -6,6 +6,7 @@ export type HLTBStyle =
     | 'clean'
     | 'clean-left'
     | 'clean-default'
+    | 'clean-default-blur'
     | null;
 
 export const useStyle = () => {
