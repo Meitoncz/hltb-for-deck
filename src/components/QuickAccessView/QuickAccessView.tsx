@@ -19,7 +19,7 @@ const styleOptions = [
     { data: 1, label: '"Clean"', value: 'clean' },
     { data: 2, label: '"Clean" Left', value: 'clean-left' },
     { data: 3, label: '"Clean" Default', value: 'clean-default' },
-    { data: 3, label: '"Clean" Default (Blur)', value: 'clean-default-blur' },
+    { data: 4, label: '"Clean" Default (Blur)', value: 'clean-default-blur' },
 ] as const;
 
 export const QuickAccessView = () => {
