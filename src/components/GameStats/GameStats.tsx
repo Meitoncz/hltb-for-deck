@@ -37,11 +37,13 @@ export const GameStats = ({ serverApi, game, appId, id }: GameStatsProps) => {
     }
     const hltbInfoPosition =
         hltbStyle === 'clean-left' ? 'hltb-info-clean-left' : '';
-    const btnStyle =
+    let btnStyle =
         hltbStyle === 'default' || hltbStyle === 'clean-default'
             ? ''
             : 'hltb-details-btn-clean';
-    hltbStyle === 'clean-default-blur' ? '' : 'hltb-details-btn-clean-blur';
+    if (hltbStyle === 'clean-default-blur') {
+        btnStyle = 'hltb-details-btn-clean-blur';
+    }
 
     return (
         <div id={id} style={{ display: hide ? 'none' : 'block' }}>

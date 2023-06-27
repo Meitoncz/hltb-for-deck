@@ -63,7 +63,7 @@ export default (
     display: flex;
 }
 
-.hltb-info-clean-blur ul {
+.hltb-info-clean-default-blur ul {
     list-style: none;
     padding: 10px 35px;
     margin: 0px;
